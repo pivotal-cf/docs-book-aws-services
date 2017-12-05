@@ -1,0 +1,19 @@
+---
+book_repo: pivotal-cf/docs-book-antivirus
+layout_repo: pivotal-cf/docs-layout-repo
+
+feedback_enabled: true
+
+broken_link_exclusions: iefix|arrowhead
+repo_link_enabled: true
+
+public_host: docs.pivotal.io
+
+elastic_search: true
+
+sections:
+
+- repository:
+    name: pivotal-cf/docs-aws-service-broker
+  directory: aws-services
+  subnav_template: aws-services-subnav.erb
