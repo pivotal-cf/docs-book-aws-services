@@ -14,6 +14,6 @@ elastic_search: true
 sections:
 
 - repository:
-    name: pivotal-cf/docs-aws-service-broker
+    name: pivotal-cf/docs-aws-services
   directory: aws-services
   subnav_template: aws-services-subnav.erb
