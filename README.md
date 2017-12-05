@@ -43,38 +43,21 @@ This is a Bookbinder project. See [its README](https://github.com/pivotal-cf/boo
 
 ## Continuous Integration Technical Details
 
-We deploy this documentation as an app using Concourse pipelines, at https://p-concourse.wings.cf-app.com/teams/system-team-docs-docs-1-88aa/pipelines/cf-current?groups=pcfservices
+We deploy this documentation as an app using Concourse pipelines, at https://concourse.run.pivotal.io/teams/cf-docs/pipelines/cf-services?groups=aws-services
 
-Credential for our pipeline are stored in LastPass. 
-Tarballs of the builds are stored on Amazon S3. 
-Use the creds stored in LastPass to log in.
-
-The CI status can be monitored via the [Checkman](https://github.com/cppforlife/checkman) application (Mac only).
-
-Once installed, configure Checkman to be aware of the CI builds by putting the following in a file called `~/Checkman/bookbinder`:
-
-    PCF Bind: concourse.check https://pubtools.ci.cf-app.com REPLACE-WITH-USERNAME REPLACE-WITH-PASSWORD cf-current pcfservices
 
 ## Deployment Details
 
 Staging and Production are both on run.pivotal.io:
 
-- [Staging](http://cf-p1-docs-staging.cfapps.io/)
-- [Production](http://cf-p1-docs-prod.cfapps.io/)
+- [Staging](https://docs-pcf-staging.cfapps.io/aws-services/index.html)
+- [Production](http://docs.pivotal.io/aws-services/index.html)
 
 See the config.yml for details.
 
 ## Notes on the config.yml 
 
 Template variables for the PCF docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder. 
-
-The "sections" section of the `config.yml` file is organized as follows:
-
-- First "sections" section contains all repos for PCF docs in the cloudfoundry org, in alphabetical order.
-- Next "sections" section contains all repos for PCF docs in the pivotal-cf org, in alphabetical order.
-- Next "sections" section contains the repo where we store product PDFs
-- Next "sections" section contains all repos for non-PCF docs in the pivotal-cf org, in alphabetical order.
-- Next "sections" section contains all repos for non-PCF docs in the other orgs, in alphabetical order.
 
 ## Determine Content Repos and Branches of a Book
 
