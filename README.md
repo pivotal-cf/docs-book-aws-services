@@ -16,7 +16,7 @@ Here are some consistency items:
 
 + Product name: **Pivotal Cloud Foundry Service Broker for AWS**
 
-+ Abbreviate product name: **Service Broker for AWS**
++ Abbreviated product name: **Service Broker for AWS**
 
 + The _services_ supported are described by AWS as **products**, so we should do the same. 
   See [aws.amazon.com](https://aws.amazon.com)
