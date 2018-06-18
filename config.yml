@@ -1,5 +1,5 @@
 ---
-book_repo: pivotal-cf/docs-book-antivirus
+book_repo: pivotal-cf/docs-book-aws-service-broker
 layout_repo: pivotal-cf/docs-layout-repo
 
 feedback_enabled: true
