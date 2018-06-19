@@ -15,6 +15,6 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-aws-services
-    ref: master
-  directory: aws-services
-  subnav_template: aws-services-subnav.erb
+    ref: "1.5"
+  directory: aws-services/1-5
+  subnav_template: aws-services-subnav-1-5.erb
