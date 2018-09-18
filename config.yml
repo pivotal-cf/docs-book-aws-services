@@ -1,7 +1,7 @@
 ---
-book_repo: pivotal-cf/docs-book-antivirus
+book_repo: pivotal-cf/docs-book-aws-service-broker
 layout_repo: pivotal-cf/docs-layout-repo
-
+layout_repo_ref: master
 feedback_enabled: true
 
 broken_link_exclusions: iefix|arrowhead
@@ -17,3 +17,4 @@ sections:
     name: pivotal-cf/docs-aws-services
   directory: aws-services
   subnav_template: aws-services-subnav.erb
+  
