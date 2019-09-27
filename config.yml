@@ -11,7 +11,13 @@ public_host: docs.pivotal.io
 
 elastic_search: true
 
-sections:
+sections:  
+# cross-product resources
+- repository:
+    name: pivotal-cf/docs-partials
+    ref: master
+  directory: aws/partials
+  no_docs: true
 
 - repository:
     name: pivotal-cf/docs-aws-services
