@@ -5,19 +5,34 @@ template_variables:
   title: <span class="title-deemph">Pivotal</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
-  ops_manager_full: Pivotal Operations Manager
-  ops_manager: Ops Manager
-  product_full: Elastic Runtime
-  product_short: Elastic Runtime
-  product_name: PCF
-  product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
   support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
   support_url: http://support.pivotal.io
-
   path_to_partials: /aws/partials
+
+
+  platform_name: Pivotal Platform
+  platform_old: Pivotal Cloud Foundry
+  platform_code: PCF
+  product_name_lc: pcf
+  product_full: PCF Service Broker for AWS
+  product_short: Service Broker for AWS
+  product_abbr: Service Broker for AWS
+  product_old: PCF Service Broker for AWS
+  app_runtime_full: Pivotal Application Service
+  app_runtime: Application Service
+  app_runtime_abbr: PAS
+  k8s_runtime_full: Enterprise Pivotal Container Service
+  k8s_runtime: Enterprise PKS
+  k8s_runtime_abbr: PKS
+  windows_runtime_full: Pivotal Application Service for Windows
+  windows_runtime: Application Service for Windows
+  windows_runtime_abbr: PASW
+  ops_manager_full: Pivotal Operations Manager
+  ops_manager: Ops Manager
+
 
   api_version: 235
   gtm_account_id: GTM-MW4LZHR
@@ -109,12 +124,12 @@ template_variables:
   odb_pcfdev_version_pivnet: 1811
   odb_pcfdev_version: pcfdev-v0.19.1-rc.46
   odb_warden_stemcell_version: 3262.2
-  om_resurrector_header: <h4>Ops Manager Resurrector</h4>
-  om_resurrector_text: Enable the <a href="http://docs.pivotal.io/pivotalcf/customizing/resurrector.html#enabling">Ops Manager Resurrector</a>.
+  om_resurrector_header: <h4>BOSH Resurrector</h4>
+  om_resurrector_text: Enable the <a href="http://docs.pivotal.io/pivotalcf/customizing/resurrector.html#enabling">BOSH Resurrector</a>.
   org_members_multi: images/pcf/org-members-multi.png
   org_members: images/pcf/org-members.png
   org_roles: "Organization Manager and Organization Auditor"
-  pcf_pools: For [Amazon Web Services](http://aws.amazon.com/ec2/faqs/#How_many_instances_can_I_run_in_Amazon_EC2), review the documentation regarding scaling instances. If you are using OpenStack, see the topic regarding [managing projects and users](http://docs.openstack.org/openstack-ops/content/projects_users.html). For vSphere, review the [Configuring Ops Manager Director for VMware vSphere](http://docs.pivotal.io/pivotalcf/customizing/vsphere-config.html#resource-config) topic.
+  pcf_pools: For [Amazon Web Services](http://aws.amazon.com/ec2/faqs/#How_many_instances_can_I_run_in_Amazon_EC2), review the documentation regarding scaling instances. If you are using OpenStack, see the topic regarding [managing projects and users](http://docs.openstack.org/openstack-ops/content/projects_users.html). For vSphere, review the [Configuring BOSH Director on vSphere](http://docs.pivotal.io/pivotalcf/customizing/vsphere-config.html#resource-config) topic.
   pcf_rec: Pivotal
   platform_ssh_configuration: Pivotal Cloud Foundry deployments control SSH access to apps at the Elastic Runtime level. Additionally, Cloud Foundry supports load balancing of SSH sessions with your load balancer. The [Configuring SSH Access](../../customizing/config-ssh.html) topic describes how to set SSH access for your deployment.
   pools_link: <a href="http://docs.pivotal.io/pivotalcf/customizing/vsphere-config.html">resource pools</a>
@@ -125,6 +140,7 @@ template_variables:
   pw_policy: See the <a href="../opsguide/pw-policy.html">Configuring UAA Password Policy</a> topic to configure the password policy.
   pws_metrics:
   quota_resource: quota space
+  recommended_by: Pivotal
   route_services_config: <h2><a id='enabling-route-services'></a>Enabling Route Services in Pivotal Cloud Foundry</h2>You configure Route Services for your deployment in the Elastic Runtime tile, under **Settings**>**Networking**. Depending on your infrastructure, refer to the Elastic Runtime configuration topics for <a href="../customizing/cloudform-er-config.html#route-services">Amazon Web Services</a>, <a href="../customizing/openstack-er-config.html#route-services">OpenStack</a>, or <a href="../customizing/config-er-vmware.html#route-services">vSphere and vCloud</a>.
   scaling_ert_db:
   scaling_ert: For more information regarding zero downtime deployment, see the [Scaling Instances in Elastic Runtime](./../opsguide/scaling-ert-components.html) topic.
