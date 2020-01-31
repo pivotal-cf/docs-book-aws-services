@@ -22,7 +22,6 @@ template_variables:
   product_abbr: Service Broker for AWS
   product_old: PCF Service Broker for AWS
   app_runtime_full: Pivotal Application Service
-  app_runtime: Application Service
   app_runtime_abbr: PAS
   k8s_runtime_full: Enterprise Pivotal Container Service
   k8s_runtime: Enterprise PKS
