@@ -25,8 +25,6 @@ template_variables:
   app_runtime_abbr: PAS
   k8s_runtime_full: Enterprise Pivotal Container Service
   k8s_runtime_abbr: PKS
-  windows_runtime_full: Pivotal Application Service for Windows
-  windows_runtime: Application Service for Windows
   windows_runtime_abbr: PASW
   ops_manager_full: Pivotal Operations Manager
   ops_manager: Ops Manager
