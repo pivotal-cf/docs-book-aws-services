@@ -1,5 +1,5 @@
 ---
-book_repo: pivotal-cf/docs-book-aws-service-broker
+book_repo: pivotal-cf/docs-book-aws-services
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: master
 feedback_enabled: true
