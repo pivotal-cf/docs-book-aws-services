@@ -1,5 +1,5 @@
 ---
-book_repo: pivotal-cf/docs-book-antivirus
+book_repo: pivotal-cf/docs-book-aws-services
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: edge
 
