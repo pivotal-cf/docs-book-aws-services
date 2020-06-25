@@ -4,9 +4,9 @@
 
 * This book repo is for building the Pivotal Cloud Foundry Service Broker for AWS content, that is, content for the next unreleased version of the product. 
 
-* The content repo is in **pivotal-cf/docs-aws-service-broker**. 
+* The content repo is in [**pivotal-cf/docs-aws-service-broker**](https://github.com/pivotal-cf/docs-aws-service-broker). 
 
-* The production version of this doc is now built as part of **pivotal-cf/docs-book-aws-service-broker**. 
+* The production version of this doc is now built as part of **pivotal-cf/docs-book-aws-services*. 
 
 * The `master_middleman` folder contains the templates used for publishing.
 
