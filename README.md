@@ -2,13 +2,20 @@
 
 ## About this Repo
 
-* This book repo is for building the Pivotal Cloud Foundry Service Broker for AWS content, that is, content for the next unreleased version of the product. 
+* This book repo is for building the Pivotal Cloud Foundry Service Broker for AWS content, that is, content for the next unreleased version of the product.
 
-* The content repo is in **pivotal-cf/docs-aws-service-broker**. 
+* The content repo is in **pivotal-cf/docs-aws-service-broker**.
 
-* The production version of this doc is now built as part of **pivotal-cf/docs-book-aws-service-broker**. 
+* The production version of this doc is now built as part of **pivotal-cf/docs-book-aws-service-broker**.
 
 * The `master_middleman` folder contains the templates used for publishing.
+
+The branches in this book are as follows:
+
+| Branch name | Use for… |
+|-------------| ------|
+| master      | Currently the published 1.4.8 docs. Contains all changes for v1.4. Publishes to http://docs.pivotal.io/aws-services/ |
+| 1.5         | Currently "Edge". v1.5 is in "sustain mode". There is no plan for its release. Publishes to https://docs-pcf-staging.cfapps.io/aws-services/1-5/ |
 
 ## The Docs Toolchain
 
@@ -27,10 +34,10 @@ So, for example, the docs for the Cloud Foundry command-line tool (cf CLI) exist
 The docs team prefers to receive documentation contributions as pull requests rather than having engineering teams push directly to the docs repos.
 This gives us a chance to review the changes for consistency and understand the new content.
 
-If you are planning to initiate a large documentation effort, please coordinate with the docs team in advance to make sure we're not going to step on each other. 
+If you are planning to initiate a large documentation effort, please coordinate with the docs team in advance to make sure we're not going to step on each other.
 You can reach the docs team by email at [cf-docs@pivotal.io](mailto:cf-docs@pivotal.io).
 
-If you are trying to figure out where a particular bit of information should live, please reach out and ask. 
+If you are trying to figure out where a particular bit of information should live, please reach out and ask.
 We're happy to help you ensure information goes to the right place.
 
 Note that content often lives in more than one context.
@@ -45,8 +52,8 @@ This is a Bookbinder project. See [its README](https://github.com/pivotal-cf/boo
 
 We deploy this documentation as an app using Concourse pipelines, at https://p-concourse.wings.cf-app.com/teams/system-team-docs-docs-1-88aa/pipelines/cf-current?groups=pcfservices
 
-Credential for our pipeline are stored in LastPass. 
-Tarballs of the builds are stored on Amazon S3. 
+Credential for our pipeline are stored in LastPass.
+Tarballs of the builds are stored on Amazon S3.
 Use the creds stored in LastPass to log in.
 
 The CI status can be monitored via the [Checkman](https://github.com/cppforlife/checkman) application (Mac only).
@@ -64,9 +71,9 @@ Staging and Production are both on run.pivotal.io:
 
 See the config.yml for details.
 
-## Notes on the config.yml 
+## Notes on the config.yml
 
-Template variables for the PCF docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder. 
+Template variables for the PCF docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder.
 
 The "sections" section of the `config.yml` file is organized as follows:
 
@@ -103,4 +110,3 @@ or on the branch corresponding to its version number.
   ```
 
   `ref: '225'` refers to the 225 branch of the docs-cloudfoundry-concepts repo. Cloud Foundry v225 is associated with the PCF v1.6 release.
-
