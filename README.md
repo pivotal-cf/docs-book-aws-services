@@ -1,12 +1,16 @@
 #  Pivotal Cloud Foundry Service Broker for AWS
 
+VMware Tanzu Service Broker for AWS v1.4 is no longer supported
+because it has reached the End of General Support (EOGS) phase.
+To stay up to date with the latest software and security updates, contact your account team for next steps.
+
 ## About this Repo
 
-* This book repo is for building the Pivotal Cloud Foundry Service Broker for AWS content, that is, content for the next unreleased version of the product. 
+* This book repo is for building the Pivotal Cloud Foundry Service Broker for AWS content, that is, content for the next unreleased version of the product.
 
-* The content repo is in [**pivotal-cf/docs-aws-services**](https://github.com/pivotal-cf/docs-aws-services). 
+* The content repo is in [**pivotal-cf/docs-aws-services**](https://github.com/pivotal-cf/docs-aws-services).
 
-* The production version of this doc is now built as part of **pivotal-cf/docs-book-aws-services*. 
+* The production version of this doc is now built as part of **pivotal-cf/docs-book-aws-services*.
 
 * The `master_middleman` folder contains the templates used for publishing.
 
@@ -18,7 +22,7 @@ Here are some consistency items:
 
 + Abbreviated product name: **Service Broker for AWS**
 
-+ The _services_ supported are described by AWS as **products**, so we should do the same. 
++ The _services_ supported are described by AWS as **products**, so we should do the same.
   See [aws.amazon.com](https://aws.amazon.com)
 
 ## The Docs Toolchain
@@ -38,10 +42,10 @@ So, for example, the docs for the Cloud Foundry command-line tool (cf CLI) exist
 The docs team prefers to receive documentation contributions as pull requests rather than having engineering teams push directly to the docs repos.
 This gives us a chance to review the changes for consistency and understand the new content.
 
-If you are planning to initiate a large documentation effort, please coordinate with the docs team in advance to make sure we're not going to step on each other. 
+If you are planning to initiate a large documentation effort, please coordinate with the docs team in advance to make sure we're not going to step on each other.
 You can reach the docs team by email at [cf-docs@pivotal.io](mailto:cf-docs@pivotal.io).
 
-If you are trying to figure out where a particular bit of information should live, please reach out and ask. 
+If you are trying to figure out where a particular bit of information should live, please reach out and ask.
 We're happy to help you ensure information goes to the right place.
 
 Note that content often lives in more than one context.
@@ -66,9 +70,9 @@ Staging and Production are both on run.pivotal.io:
 
 See the config.yml for details.
 
-## Notes on the config.yml 
+## Notes on the config.yml
 
-Template variables for the PCF docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder. 
+Template variables for the PCF docs are stored in a separate YML file, `template_variables.yml`, stored in the config folder.
 
 ## Determine Content Repos and Branches of a Book
 
@@ -97,4 +101,3 @@ or on the branch corresponding to its version number.
   ```
 
   `ref: '225'` refers to the 225 branch of the docs-cloudfoundry-concepts repo. Cloud Foundry v225 is associated with the PCF v1.6 release.
-
