@@ -1,8 +1,7 @@
 #  Pivotal Cloud Foundry Service Broker for AWS
 
-VMware Tanzu Service Broker for AWS v1.4 is no longer supported
+Service Broker for AWS is no longer supported
 because it has reached the End of General Support (EOGS) phase.
-To stay up to date with the latest software and security updates, contact your account team for next steps.
 
 ## About this Repo
 
