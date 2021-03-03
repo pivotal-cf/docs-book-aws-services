@@ -7,7 +7,7 @@ because it has reached the End of General Support (EOGS) phase.
 
 * This book repo is for building the Pivotal Cloud Foundry Service Broker for AWS content, that is, content for the next unreleased version of the product.
 
-* The content repo is in [**pivotal-cf/docs-aws-services**](https://github.com/pivotal-cf/docs-aws-services).
+* The content repo is in [/**pivotal-cf/docs-aws-services**](https://github.com/pivotal-cf/docs-aws-services).
 
 * The production version of this doc is now built as part of **pivotal-cf/docs-book-aws-services*.
 
