@@ -17,7 +17,7 @@ template_variables:
   platform_old: Pivotal Cloud Foundry
   platform_code: PCF
   product_name_lc: pcf
-  product_full: PCF Service Broker for AWS
+  product_full: VMware Tanzu Service Broker for AWS
   product_short: Service Broker for AWS
   product_abbr: Service Broker for AWS
   product_old: PCF Service Broker for AWS
@@ -29,6 +29,7 @@ template_variables:
   windows_runtime_abbr: PASW
   ops_manager_full: Pivotal Operations Manager
   ops_manager: Ops Manager
+  product_network: VMware Tanzu Network
 
 
   api_version: 235
