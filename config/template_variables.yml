@@ -21,13 +21,13 @@ template_variables:
   product_short: Service Broker for AWS
   product_abbr: Service Broker for AWS
   product_old: PCF Service Broker for AWS
-  app_runtime_full: Pivotal Application Service
-  app_runtime_abbr: PAS
+  app_runtime_full: VMware Tanzu Application Service for VMs
+  app_runtime_abbr: TAS for VMs
   k8s_runtime_full: Tanzu Kubernetes Grid Integrated Edition
   k8s_runtime_abbr: TKGI
-  windows_runtime_full: Pivotal Application Service for Windows
-  windows_runtime_abbr: PASW
-  ops_manager_full: Pivotal Operations Manager
+  windows_runtime_full: VMware Tanzu Application Service for VMs &#91;Windows&#93;
+  windows_runtime_abbr: TAS for VMs &#91;Windows&#93;
+  ops_manager_full: Operations Manager
   ops_manager: Ops Manager
   product_network: VMware Tanzu Network
 
